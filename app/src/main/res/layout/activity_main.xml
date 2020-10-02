@@ -17,13 +17,12 @@
 
 
         <ImageView
-            android:layout_width="94dp"
-            android:layout_height="108dp"
+            android:layout_width="187dp"
+            android:layout_height="93dp"
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
-            android:background="@drawable/code_android_logo2"
             android:scaleType="fitCenter"
-            android:src="@drawable/code_android_logo" />
+            android:src="@drawable/revi" />
 
         <EditText
             android:id="@+id/username"
@@ -34,7 +33,7 @@
             android:drawableStart="@drawable/ic_user"
             android:drawablePadding="10dp"
             android:ems="10"
-            android:hint="Revi  Name"
+            android:hint="Revi Name"
             android:inputType="textPersonName"
             android:padding="10dp"
             android:textColor="@color/white"
