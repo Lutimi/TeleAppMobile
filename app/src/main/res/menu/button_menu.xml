@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/item_stores"
+        android:id="@+id/item_home"
         android:icon="@mipmap/ic_launcher"
         android:iconTint="@color/colorAccent"
         android:title="Tiendas" />
     <item
-        android:id="@+id/item_favorites"
+        android:id="@+id/item_recommendations"
         android:visible="false"
         android:icon="@mipmap/ic_launcher"
         android:title="Favoritos" />
     <item
-        android:id="@+id/item_orders"
+        android:id="@+id/item_status"
         android:icon="@mipmap/ic_launcher"
         android:title="Pedidos" />
     <item
-        android:id="@+id/item_shopping"
+        android:id="@+id/item_city"
         android:icon="@mipmap/ic_launcher"
         android:title="Compras" />
     <item
-        android:id="@+id/item_profile"
+        android:id="@+id/item_my_cars"
         android:icon="@mipmap/ic_launcher"
         android:title="Perfil" />
 </menu>
