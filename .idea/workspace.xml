@@ -5,10 +5,27 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="43b316fa-56d5-4626-b98a-8831d75ccfda" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/Revisfast logo 3 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gradient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo_skype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/revi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/twitter.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/button_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-10-01-20-31-40-820.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-10-01-20-31-40-820.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-10-01-21-16-58-266.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2020-10-01-21-16-58-266.rawproto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/code_android_logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/home_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/home_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +57,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1hfSsB30fBYokhIQl3s16nK9Ayt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -209,6 +227,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="228" y="162" key="AndroidCreateResourceFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1601608990843" />
+    <state x="158" y="2" key="CommitChangelistDialog2" timestamp="1601609411914">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="158" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1601609411914" />
     <state width="1238" height="170" key="GridCell.Tab.0.bottom" timestamp="1601609144314">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -225,5 +247,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="170" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1601609144314" />
+    <state x="420" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601609414259">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="420" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1601609414259" />
   </component>
 </project>
