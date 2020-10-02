@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:support-fragment:26.1.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../../gradle-3.3/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/73176bdc9aed940c2b7271d21fa132f2/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../gradle-3.3/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/73176bdc9aed940c2b7271d21fa132f2/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../gradle-3.3/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/73176bdc9aed940c2b7271d21fa132f2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a74edc0eb5923e6f89128103b4051c01/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a74edc0eb5923e6f89128103b4051c01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a74edc0eb5923e6f89128103b4051c01/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../../gradle-3.3/caches/modules-2/files-2.1/com.android.support/support-fragment/26.1.0/8279b00f5194701ff18363fa2958c5a26670b0ef/support-fragment-26.1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-fragment/26.1.0/8279b00f5194701ff18363fa2958c5a26670b0ef/support-fragment-26.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

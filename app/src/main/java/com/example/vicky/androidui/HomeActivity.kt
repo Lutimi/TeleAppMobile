@@ -17,31 +17,38 @@ class HomeActivity : AppCompatActivity() {
     private val mOnNavigationItemSelectedListener =
             BottomNavigationView.OnNavigationItemSelectedListener { item ->
                 when (item.itemId) {
-                    R.id.item_stores -> {
+                    R.id.item_home -> {
 
                         return@OnNavigationItemSelectedListener true
                     }
-                    R.id.item_favorites -> {
+                    R.id.item_recommendations -> {
 
 
                         return@OnNavigationItemSelectedListener true
                     }
 
-                    R.id.item_orders -> {
+                    R.id.item_status -> {
+                        val fragmentTransaction = supportFragmentManager.beginTransaction()
+                                .replace(
+                                        R.id.frameLayoutFragment,
+                                        ProcessingStatusFragment.newInstance(
+
+                                        ),
+                                      ProcessingStatusFragment.TAG
+                                ).addToBackStack(ProcessingStatusFragment.TAG)
+                        fragmentTransaction.commitAllowingStateLoss()
+                        return@OnNavigationItemSelectedListener true
+
+                    }
+
+                    R.id.item_city -> {
 
 
                         return@OnNavigationItemSelectedListener true
 
                     }
 
-                    R.id.item_shopping -> {
-
-
-                        return@OnNavigationItemSelectedListener true
-
-                    }
-
-                    R.id.item_profile -> {
+                    R.id.item_my_cars -> {
 
                         return@OnNavigationItemSelectedListener true
 
