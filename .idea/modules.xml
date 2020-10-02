@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidUI-master.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidUI-master.iml" group="AndroidUI-master" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AndroidUI-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TeleAppMobile.iml" filepath="$PROJECT_DIR$/.idea/modules/TeleAppMobile.iml" group="TeleAppMobile" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="TeleAppMobile/app" />
     </modules>
   </component>
 </project>
