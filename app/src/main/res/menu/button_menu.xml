@@ -4,22 +4,22 @@
         android:id="@+id/item_home"
         android:icon="@mipmap/ic_launcher"
         android:iconTint="@color/colorAccent"
-        android:title="Tiendas" />
+        android:title="Inicio" />
     <item
         android:id="@+id/item_recommendations"
         android:visible="false"
         android:icon="@mipmap/ic_launcher"
-        android:title="Favoritos" />
+        android:title="Recomendaciones" />
     <item
         android:id="@+id/item_status"
         android:icon="@mipmap/ic_launcher"
-        android:title="Pedidos" />
+        android:title="Estado de trámite" />
     <item
         android:id="@+id/item_city"
         android:icon="@mipmap/ic_launcher"
-        android:title="Compras" />
+        android:title="Ciudad" />
     <item
         android:id="@+id/item_my_cars"
         android:icon="@mipmap/ic_launcher"
-        android:title="Perfil" />
+        android:title="Mis vehículos" />
 </menu>

@@ -43,7 +43,7 @@
           </option>
           <option name="pluginClasspaths">
             <array>
-              <option value="$MODULE_DIR$/../../../../../gradle-3.3/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.10/10eb9a3d66aa7c5e17afdf93116082018d0d4643/kotlin-android-extensions-1.2.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.10/10eb9a3d66aa7c5e17afdf93116082018d0d4643/kotlin-android-extensions-1.2.10.jar" />
             </array>
           </option>
           <option name="coroutinesState" value="warn" />

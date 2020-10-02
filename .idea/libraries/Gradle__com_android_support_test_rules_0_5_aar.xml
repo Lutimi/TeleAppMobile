@@ -1,16 +1,16 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support.test:rules:0.5@aar">
     <ANNOTATIONS>
-      <root url="jar://$PROJECT_DIR$/../../../../gradle-3.3/caches/transforms-1/files-1.1/rules-0.5.aar/27bdef08090b69d168c68391b9c235c7/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rules-0.5.aar/1290ea5027b04da5cdb13ddbdbd06c44/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../../gradle-3.3/caches/transforms-1/files-1.1/rules-0.5.aar/27bdef08090b69d168c68391b9c235c7/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../gradle-3.3/caches/transforms-1/files-1.1/rules-0.5.aar/27bdef08090b69d168c68391b9c235c7/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../gradle-3.3/caches/transforms-1/files-1.1/rules-0.5.aar/27bdef08090b69d168c68391b9c235c7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rules-0.5.aar/1290ea5027b04da5cdb13ddbdbd06c44/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rules-0.5.aar/1290ea5027b04da5cdb13ddbdbd06c44/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rules-0.5.aar/1290ea5027b04da5cdb13ddbdbd06c44/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../../gradle-3.3/caches/modules-2/files-2.1/com.android.support.test/rules/0.5/eb0523edeca93697d4c4b767277b407ed5920258/rules-0.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support.test/rules/0.5/eb0523edeca93697d4c4b767277b407ed5920258/rules-0.5-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

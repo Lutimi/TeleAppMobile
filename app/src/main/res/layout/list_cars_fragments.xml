@@ -2,18 +2,216 @@
 <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/mainView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/white">
+        android:padding="20dp"
+        android:background="@drawable/background"
+        android:layout_height="match_parent">
 
-    <android.support.v7.widget.RecyclerView
-            android:id="@+id/rvList"
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/item1"
+            android:layout_margin="20dp"
+            android:padding="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@id/item2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+                android:id="@+id/image"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/image"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/carName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VEHÍCULO: TOYOTA LANDRUISER PRADO"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/image" />
+
+        <TextView
+                android:id="@+id/placaName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="PLACA: VSA-925"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/carName" />
+
+        <TextView
+                android:id="@+id/anio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="AÑO DE FABRICACIÓN: 2010"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/placaName" />
+
+        <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ESTADO: APROBADO"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/anio" />
+
+        <TextView
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CITV: FARENET (SURCO)"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/status" />
+
+        <TextView
+                android:id="@+id/renovate_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="FECHA DE RENOVACIÓN: 02/10/19"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/city" />
+
+        <TextView
+                android:id="@+id/end_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="FECHA DE CADUCIDAD: 02/10/20"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/renovate_date" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+            android:id="@+id/item2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            app:layout_constraintTop_toBottomOf="@id/item1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            android:background="@android:color/white">
+
+        <ImageView
+                android:id="@+id/image2"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:src="@drawable/image"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+                android:id="@+id/carName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/image2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="VEHÍCULO: TOYOTA LANDRUISER PRADO" />
+        <TextView
+                android:id="@+id/placaName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/carName2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:text="PLACA: VSA-925"/>
+        <TextView
+                android:id="@+id/anio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/placaName2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:text="AÑO DE FABRICACIÓN: 2010"/>
+        <TextView
+                android:id="@+id/status2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/anio2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:text="ESTADO: APROBADO"/>
+        <TextView
+                android:id="@+id/city2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/status2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:text="CITV: FARENET (SURCO)"/>
+        <TextView
+                android:id="@+id/renovate_date2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintTop_toBottomOf="@id/city2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:text="FECHA DE RENOVACIÓN: 02/10/19"/>
+        <TextView
+                android:id="@+id/end_date2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintTop_toBottomOf="@id/renovate_date2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:text="FECHA DE CADUCIDAD: 02/10/20"/>
+
+    </android.support.constraint.ConstraintLayout>
 </android.support.constraint.ConstraintLayout>

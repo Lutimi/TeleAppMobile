@@ -3,46 +3,37 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/mainView"
+        android:background="@drawable/background"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@android:color/white">
+        android:padding="30dp"
+        android:layout_height="match_parent">
 
     <TextView
             android:id="@+id/tvFirstParameterName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="92dp"
-            android:alpha="0.5"
-            android:textColor="@color/colorPrimary"
+
+            android:textColor="@android:color/white"
             android:visibility="visible"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@id/tvFirstParameterValue"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.456"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="AUN NOSE" />
+            android:text="ESTADO DE TRÁMITE" />
 
     <TextView
             android:id="@+id/tvFirstParameterValue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="52dp"
-            android:alpha="0.5"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/hint_color"
             android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.471"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvFirstParameterName"
-            tools:text="5.6 mg/L" />
+            android:text="No tienes trámites" />
 
-    <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="100dp"
-            android:text="Button"
-            app:layout_constraintBottom_toBottomOf="parent"
-            tools:layout_editor_absoluteX="157dp" />
+
 
 </android.support.constraint.ConstraintLayout>
